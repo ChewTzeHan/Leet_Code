@@ -11,18 +11,19 @@ class Solution:
         for i in s.strip():
             if i.isnumeric() == False:
                 if i == '-' and opp_found == False:
+                    
+                    if num_str != '':
+                        break
                     neg = True
                     opp_found = True
-                    if num_str != '':
-                        neg = False
-                        break
                     continue
 
                 elif i == '+' and opp_found == False:
-                    neg = False
-                    opp_found = True
+                    
                     if num_str != '':
                         break
+                    neg = False
+                    opp_found = True
                     continue
 
                 else:
