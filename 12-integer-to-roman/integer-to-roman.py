@@ -23,7 +23,7 @@ class Solution:
         roman = ''
 
         for i in range(len(romans)):
-            print(num)
+            #print(num)
             if (num - numerals[i]) >= 0:
                 roman += romans[i] * (floor(num/numerals[i]))
                 num -= numerals[i] * (floor(num/numerals[i]))
