@@ -21,10 +21,6 @@ class Solution:
         numerals = [1000, 900, 500, 400, 100, 90, 50, 40 ,10 ,9 ,5, 4, 1]
 
         roman = ''
-        if num >= 2000:
-            roman += 'M' * (floor(num/1000) - 1)
-            num -= 1000 * (floor(num/1000) - 1)
-            print(num)
 
         for i in range(len(romans)):
             print(num)
