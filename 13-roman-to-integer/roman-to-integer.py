@@ -4,9 +4,7 @@ class Solution:
         numerals = [1000, 900, 500, 400, 100, 90, 50, 40 ,10 ,9 ,5, 4, 1]
 
         num = 0
-        count = 0
-        while s or count == 20:
-            count += 1
+        while s:
             #print(s, num)
             single = s[0]
             if len(s) > 1:
