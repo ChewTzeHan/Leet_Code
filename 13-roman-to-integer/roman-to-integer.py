@@ -7,7 +7,7 @@ class Solution:
         count = 0
         while s or count == 20:
             count += 1
-            print(s, num)
+            #print(s, num)
             single = s[0]
             if len(s) > 1:
                 double = s[0] + s[1]
