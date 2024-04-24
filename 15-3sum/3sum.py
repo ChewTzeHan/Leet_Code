@@ -3,7 +3,7 @@ class Solution:
         triplets=set()
         nums.sort()
         n = len(nums)
-        for i in range(n - 2):
+        for i in range(n):
             j = i + 1
             k = n - 1
             while j < k:
