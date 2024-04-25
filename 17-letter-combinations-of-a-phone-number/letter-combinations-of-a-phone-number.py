@@ -21,8 +21,8 @@ class Solution:
 
         
         while iterations:
-            print('start')
-            print(iterations)
+            #print('start')
+            #print(iterations)
             num = ''
             for i in range(len(letter_index)):
                 num += letters[letter_index[i]][iterations[i]]
@@ -32,8 +32,8 @@ class Solution:
                 print('exit')
                 break
             iterations[-1] += 1
-            print(iterations)
-            print('end')
+            #print(iterations)
+            #print('end')
             
             
             for i in range(1, len(iterations) + 1):
