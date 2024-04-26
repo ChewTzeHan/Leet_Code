@@ -17,10 +17,10 @@ class Solution:
                 return twoSum(nums, target)
 
             
-            for i in range(len(nums)):
+            for i in range(len(nums)): #reduce array to twoSum
                 if i == 0 or nums[i - 1] != nums[i]:
                     for subset in kSum(nums[i+1:], target - nums[i], k - 1):
-                        #print(subset)
+                        #print(nums[i], subset)
                         result.append([nums[i]] + subset)
 
             return result
