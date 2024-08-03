@@ -12,7 +12,7 @@ class Solution:
         print(elements)
 
         length = (len(nums)/3)
-        print(length)
+        #print(length)
         majority = []
 
         for i in elements:
