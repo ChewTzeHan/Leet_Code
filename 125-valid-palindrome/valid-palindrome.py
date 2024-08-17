@@ -8,9 +8,7 @@ class Solution:
 
         new = new.lower()
 
-
-
-        print(new)
+        #print(new)
 
         if len(new) == 1:
             return True
