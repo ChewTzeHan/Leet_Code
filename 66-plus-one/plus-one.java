@@ -1,6 +1,6 @@
 class Solution {
     public int[] plusOne(int[] digits) {
-        int num = 0;
+        //int num = 0;
 
         digits[digits.length - 1]++;
 
@@ -21,11 +21,11 @@ class Solution {
                 }
             }
 
-            System.out.println(digits[i-1]);
+            //System.out.println(digits[i-1]);
 
         }
 
-        System.out.println(Arrays.toString(digits));
+        //System.out.println(Arrays.toString(digits));
 
         return digits;
 
